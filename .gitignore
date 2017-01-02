@@ -1,8 +1,7 @@
-.cargo/
-.cache/
-.oh-my-zsh/
-.bash_history
-.dmenu_cache
-workspace/
-ownCloud/
-Downloads/
+*
+!.gitignore
+!.config/i3
+!.env/
+!.bash_profile
+!.xinitrc
+!wallpaper.png
