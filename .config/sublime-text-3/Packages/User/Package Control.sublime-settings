@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"wget",
+			"urllib"
+		],
+		"osx":
+		[
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Babel",
+		"Git",
+		"GitGutter",
+		"Markdown Preview",
+		"Modific",
+		"Package Control",
+		"PlainTasks",
+		"PyRefactor",
+		"SublimeGit",
+		"Theme - Soda"
+	]
+}
