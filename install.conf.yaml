@@ -19,6 +19,8 @@
 
     ~/.doom.d: doom-emacs/doom.d
     ~/.emacs.d: doom-emacs/emacs.d
+
+    ~/org: ~/Library/Mobile Documents/iCloud~com~appsonthemove~beorg/Documents/org
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
