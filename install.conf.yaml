@@ -2,7 +2,11 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
+
+- shell:
+  # clean up vanilla/doom emacs configs
+  - [rm -rf ~/.emacs ~/.emacs.d ~/.doom.d] 
 
 - brewfile: [Brewfile]
 
@@ -10,6 +14,11 @@
     ~/.dotfiles: ''
     ~/.zshrc: zshrc
 
+    #~/.emacs: vanilla-emacs/emacs
+    #~/.emacs.d: vanilla-emacs/emacs.d
+
+    ~/.doom.d: doom-emacs/doom.d
+    ~/.emacs.d: doom-emacs/emacs.d
+    
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-

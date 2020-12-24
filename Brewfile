@@ -1,4 +1,3 @@
-# install Python and SQLite
 brew "git"
 brew "jq"
 brew "exa"
